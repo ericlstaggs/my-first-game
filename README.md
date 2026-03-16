@@ -24,6 +24,8 @@
 *   **Design Evidence:** 
 *   **Verification Note:** This application has been tested and verified for responsiveness on **Mobile (iOS/Android Chrome)** and **Desktop (Chrome/Safari)**. All accessibility best practices (alt text, labels, and contrast) have been implemented.
 
+## all not good on [Nu]https://validator.w3.org/nu/
+
 ---
 
 ### Model & Inspiration Evidence
