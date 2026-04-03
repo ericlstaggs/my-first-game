@@ -1,13 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="styles/my-style.css">
 </head>
-<body>
-    
+
+<body class="text-light d-flex align-items-center py-5">
+
+  <div id="loginOverlay" class="login-overlay">
+    <form id="loginForm" class="login-card">
+      <h3>Sign in or create account</h3>
+      <div class="mb-2">
+        <input id="usernameInput" class="form-control" placeholder="Username" required>
+      </div>
+      <div class="mb-3">
+        <input id="passwordInput" type="password" class="form-control" placeholder="Password" required>
+      </div>
+      <div class="d-flex gap-2">
+        <button id="loginBtn" type="button" class="btn btn-primary flex-grow-1">Log in</button>
+        <button id="registerBtn" type="button" class="btn btn-outline-light flex-grow-1">Register</button>
+      </div>
+      <p class="mt-3 small text-muted">Accounts are stored locally in your browser for this demo.</p>
+    </form>
+  </div>
+
+  <div class="container">
+    <div class="game-wrapper">
+      <div class="glass-card rounded-4 shadow-lg p-4 p-md-5">
+        <div class="text-center mb-4">
+          <div class="display-5 fw-bold">Memory Match</div>
+          <p class="text-light-emphasis mb-o">Built with Bootstrap 5 and JavaScript</p>
+          <div id="userPanel" class="d-flex justify-content-center align-items-center gap-3 mt-2">
+            <div class="small text-uppercase text-light-emphasis">Player</div>
+            <div id="userDisplay" class="fw-semibold">Guest</div>
+            <div class="small text-uppercase text-light-emphasis">High Score</div>
+            <div id="highScoreDisplay" class="fw-semibold">—</div>
+            <button id="logoutBtn" class="btn btn-sm btn-outline-light d-none">Logout</button>
+          </div>
+        </div>
+
+
+        <div class="row g-3 align-items-stretch">
+          <div class="row g-3 align-items-stretch mb-4">
+            <div class="col-12 col-md-8">
+              <div class="row g-3">
+                <div class="col-4">
+                  <div class="stat-card text-center h-100 p-3">
+                    <div class="small text-uppercase text-light-emphasis">Moves</div>
+                    <div id="moves" class="fs-3 fw-bold">0</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="stat-card text-center h-100 p-3">
+                    <div class="small text-uppercase text-light-emphasis">Matches</div>
+                    <div id="matches" class="fs-3 fw-bold">0</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="stat-card text-center h-100 p-3">
+                    <div class="small text-uppercase text-light-emphasis">Time</div>
+                    <div class="fs-3 fw-bold"><span id="timer">0</span>s</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 d-grid">
+              <button id="restartBtn" class="btn btn-info btn-lg fw-semibold text-dark shadow-sm">
+                Restart Game
+              </button>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+              <label for="difficultySelect" class="me-2 small text-light-emphasis mb-0">Difficulty</label>
+              <select id="difficultySelect" class="form-select form-select-sm w-auto">
+                <option value="easy" selected>Easy (4×4)</option>
+                <option value="medium">Medium (4×6)</option>
+                <option value="hard">Hard (6×6)</option>
+              </select>
+            </div>
+          </div>
+
+          <section>
+            <div id="gameBoard" class="game-board"></div>
+            <p id="message" class="text-center fs-5 fw-semibold text-warning mt-4 mb-0"></p>
+          </section>
+        </div>
+             <div id="footer-container" class="footer-container"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  
+  </div>
+
+
+  <!-- footer -->
+
+
+
+
+
+  <!-- here are scripts -->
+  <script src="scripts/footer.js"></script>
+  <script src="scripts/my-initial-script.js"></script>
 </body>
+
 </html>
 
 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Garfield Game Control Panel</title>
+  <!-- <link rel="stylesheet" href="../styles/style.css" /> -->
+</head>
+<body>
+  <main>
+    <h1>Garfield Game Simulator</h1>
+    <p>This page simulates game actions with buttons.</p>
+
+    <section>
+      <button id="save-player-btn">Save Player</button>
+      <button id="record-score-btn">Record High Score</button>
+      <button id="reset-game-btn">Reset Game</button>
+      <button id="view-leaderboard-btn">View Leaderboard</button>
+    </section>
+
+    <section>
+      <h2>Status</h2>
+      <div id="status-message">Ready.</div>
+    </section>
+
+    <section>
+      <h2>Leaderboard</h2>
+      <ol id="leaderboard-list"></ol>
+    </section>
+  </main>
+
+  <a href="https://github.com/ericlstaggs/game-score.git">Eric Staggs Repo</a>
+
+  <script type="module" src="./scripts/controllers/game-controller.js"></script>
+</body>
+</html>
