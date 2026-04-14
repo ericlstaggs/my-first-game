@@ -31,8 +31,7 @@
 ### Model & Inspiration Evidence
 <img width="1888" height="801" alt="dribble-screen-shot" src="https://github.com/user-attachments/assets/6b55a50c-6995-4b13-ab41-3591589f327f" />
 
-https://github.com/ericlstaggs/ericslearningrepo/wiki
-
+(https://github.com/ericlstaggs/my-first-game/wiki)
 **Inspiration Source:**   
 **Analysis:**  
 
