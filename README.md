@@ -19,8 +19,8 @@
 ---
 
 ### Links & Verification
-*   **Repository:** 
-*   **Live Deployment:** 
+*   **Repository:** https://github.com/ericlstaggs/my-first-game.git
+*   **Live Deployment:** https://ericlstaggs.github.io/my-first-game/
 *   **Design Evidence:** 
 *   **Verification Note:** This application has been tested and verified for responsiveness on **Mobile (iOS/Android Chrome)** and **Desktop (Chrome/Safari)**. All accessibility best practices (alt text, labels, and contrast) have been implemented.
 
