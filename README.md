@@ -13,8 +13,8 @@
 
 ### User Story
 **As a** busy college student,  
-**I want**   
-**so that** 
+**I want**   play a simple memory game
+**so that** i can take a break from y studies 
 
 ---
 
