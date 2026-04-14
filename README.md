@@ -29,7 +29,7 @@
 ---
 
 ### Model & Inspiration Evidence
-<img width="1888" height="801" alt="dribble-screen-shot" src="https://github.com/user-attachments/assets/6b55a50c-6995-4b13-ab41-3591589f327f" />
+<img width="1300" height="710" alt="game" src="https://github.com/user-attachments/assets/249d1da5-dfbb-4798-afba-efe58c655245" />
 
 (https://github.com/ericlstaggs/my-first-game/wiki)
 **Inspiration Source:**   
